@@ -15,7 +15,7 @@ Lists are one of the most powerful data types in Python. Generally, they're cont
 | creation         	| `[]` or `list()` for empty list, or `[1, 2, 3]` for a list with items.                            	|
 | search methods   	| `my_list.index(item)` or `item in my_list`                                                                           	|
 | search speed     	| Searching in an item in a large list is slow. Each item must be checked.                               	|
-| common methods   	| `len(my_list)`, `append(item)` to add, `insert(index, item)` to insert in the middle, `pop()` to remove.         	|
+| common methods   	| `len(my_list)`to check length, `append(item)` to add, `insert(index, item)` to insert in the middle, `pop()` to remove.         	|
 | order preserved? 	| Yes. Items can be accessed by index.                                                  	|
 | mutable?         	| Yes                                                                                   	|
 | in-place sortable?        	| Yes. `my_list.sort()` will sort the list in-place. `my_list.sort(reverse=True)` will sort the list in-place in *descending* order. `my_list.reverse()` will *reverse the items* in `my_list` in-place.           	|
